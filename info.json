@@ -1,0 +1,13 @@
+{
+  "name": "k2_se_crafting_efficiency",
+  "version": "0.0.1",
+  
+  "title": "k2-crafting-efficiency",
+  "description": "Crafting efficiency for Krastorio2, space exploration and other associated mods",
+  
+  "author": "nihilistzsche",
+  "license": "GPL3",
+  
+  "dependencies": ["base >= 1.1.6", "crafting-efficiency-2", "?Krastorio2", "?space-exploration", "?modmashsplintergold", "?aai-industry", "? water-processing", "(?) bzaluminum", "(?) bzcarbon", "(?) bzchlorine", "(?) bzgas", "(?) bzlead", "(?) bzsilicon", "(?) bztin", "(?) bztitanium", "(?) bztungsten", "(?) bzzirconium" ],
+  "factorio_version": "1.1"
+}
