@@ -1,6 +1,17 @@
+k2_se_ce_add_recipe("ion-beam", {
+    name = "Iron beam efficiency",
+    max = 15,
+    icon = "__Krastorio2Assets__/icons/items/iron-beam.png",
+    crafting = {
+        efficiency = 10,
+    },
+    research = {
+        level = 1,
+    },
+})
 k2_se_ce_add_recipe("iron-stick", {
     name = "Iron stick efficiency",
-    max = 18,
+    max = 15,
     crafting = {
         efficiency = 10,
     },
