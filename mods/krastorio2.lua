@@ -1,4 +1,4 @@
-k2_se_ce_add_recipe("ion-beam", {
+k2_se_ce_add_recipe("iron-beam", {
     name = "Iron beam efficiency",
     max = 15,
     icon = "__Krastorio2Assets__/icons/items/iron-beam.png",
