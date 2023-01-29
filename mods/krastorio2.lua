@@ -31,6 +31,18 @@ k2_se_ce_add_recipe("glass", {
         level = 1,
     },
 })
+k2_se_ce_add_recipe("coke", {
+    name = "Coke efficiency",
+    max = 15,
+    icon = "__Krastorio2Assets__/icons/items-with-variations/coke/coke.png",
+    crafting = {
+        efficiency = 20,
+        category = "smelting",
+    },
+    research = {
+        level = 2,
+    },
+})
 k2_se_ce_add_recipe("automation-core", {
     name = "Automation Core efficiency",
     max = 15,
@@ -62,5 +74,17 @@ k2_se_ce_add_recipe("steel-gear-wheel", {
     },
     research = {
         level = 2,
+    },
+})
+k2_se_ce_add_recipe("rare-metals", {
+    name = "Rare metals efficiency",
+    max = 15,
+    icon = "__Krastorio2Assets__/icons/resources/rare-metals.png",
+    crafting = {
+        efficienc = 20,
+        category = "smelting",
+    },
+    research = {
+        level = 4,
     },
 })
