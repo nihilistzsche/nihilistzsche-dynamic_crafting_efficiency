@@ -81,7 +81,7 @@ k2_se_ce_add_recipe("rare-metals", {
     max = 15,
     icon = "__Krastorio2Assets__/icons/resources/rare-metals.png",
     crafting = {
-        efficienc = 20,
+        efficiency = 20,
         category = "smelting",
     },
     research = {
