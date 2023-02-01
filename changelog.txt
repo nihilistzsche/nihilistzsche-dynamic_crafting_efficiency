@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 2023-01-31
+  Changes:
+    - Reduced the max efficiency of gold-cable (modmashsplintergold) from 18 to 15 to be inline.
+	- Added efficiency for the intermediates from dark-matter-replicators-18.
+---------------------------------------------------------------------------------------------------
 Version: 0.0.1
 Date: 2023-01-23
   Initial release

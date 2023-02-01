@@ -13,7 +13,7 @@ k2_se_ce_add_recipe("gold-plate", {
 k2_se_ce_add_recipe("gold-cable", {
 
     name = "Gold cable efficiency",
-    max = 18,
+    max = 15,
     icon = "__modmashsplintergold__/graphics/icons/gold-cable.png",
     crafting = {
         efficiency = 10,
