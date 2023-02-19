@@ -81,10 +81,66 @@ k2_se_ce_add_recipe("rare-metals", {
     max = 15,
     icon = "__Krastorio2Assets__/icons/resources/rare-metals.png",
     crafting = {
+        efficiency = 10,
+    },
+    research = {
+        level = 2,
+    },
+})
+k2_se_ce_add_recipe("enriched-iron", {
+    name = "Iron (enriched) efficiency",
+    max = 15,
+    icon = "__Krastorio2Assets__/icons/items-with-variations/enriched-iron/enriched-iron.png",
+    crafting = {
+        efficiency = 10,
+    },
+    research = {
+        level = 3,
+    },
+})
+k2_se_ce_add_recipe("enriched-copper", {
+    name = "Copper (enriched) efficiency",
+    max = 15,
+    icon = "__Krastorio2Assets__/icons/items-with-variations/enriched-copper/enriched-copper.png",
+    crafting = {
+        efficiency = 10,
+    },
+    research = {
+        level = 3,
+    },
+})
+k2_se_ce_add_recipe("enriched-rare-metals", {
+    name = "Rare metals (enriched) efficiency",
+    max = 15,
+    icon = "__Krastorio2Assets__/icons/items-with-variations/enriched-rare-metals/enriched-rare-metals.png",
+    crafting = {
+        efficiency = 10,
+    },
+    research = {
+        level = 3,
+    },
+})
+k2_se_ce_add_recipe("enriched-iron-plate", {
+    name = "Iron plate (enriched) efficiency",
+    max = 15,
+    icon = "__Krastorio2Assets__/icons/items-with-variations/enriched-iron/enriched-iron.png",
+    crafting = {
         efficiency = 20,
         category = "smelting",
     },
     research = {
-        level = 4,
+        level = 3,
+    },
+})
+k2_se_ce_add_recipe("enriched-copper-plate", {
+    name = "Copper plate (enriched) efficiency",
+    max = 15,
+    icon = "__Krastorio2Assets__/icons/items-with-variations/enriched-copper/enriched-copper.png",
+    crafting = {
+        efficiency = 20,
+        category = "smelting",
+    },
+    research = {
+        level = 3,
     },
 })
