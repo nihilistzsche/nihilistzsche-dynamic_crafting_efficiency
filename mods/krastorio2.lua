@@ -340,7 +340,7 @@ k2_se_ce_add_recipe("inserter-parts", {
         efficiency = 10,
     },
     research = {
-        level = 1
+        level = 3
     },
 })
 k2_se_ce_add_recipe("gps-satellite", {
