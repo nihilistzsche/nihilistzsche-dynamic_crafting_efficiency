@@ -1,4 +1,18 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.5
+Date: 2023-12-15
+  Changes:
+    - Redid how the recipes are generated, using the dynamically generated crafting efficiency
+      tables I had written for Brevven's mods, with a small amount of code from Brevven's mods
+      used here, under license available in LICENSE-brevven.md
+    - Added the rest of the recipes for Krastorio2 finally.
+    - Added support for the following mods:
+      MDbobelectronics
+      BrassTacks
+      IfNickel
+      BrimStuff
+      ThemTharHills
+---------------------------------------------------------------------------------------------------
 Version: 0.0.4
 Date: 2023-02-19
   Changes:
