@@ -8,6 +8,6 @@
   "author": "nihilistzsche",
   "license": "GPL3",
   
-  "dependencies": ["base >= 1.1.6", "crafting-efficiency-2", "?Krastorio2", "?space-exploration", "?modmashsplintergold", "?aai-industry", "? water-processing", "(?) bzaluminum", "(?) bzcarbon", "(?) bzchlorine", "(?) bzgas", "(?) bzlead", "(?) bzsilicon", "(?) bztin", "(?) bztitanium", "(?) bztungsten", "(?) bzzirconium", "? dark-matter-replicators-18", "? Sebs-Electrics" ],
+  "dependencies": ["base >= 1.1.6", "crafting-efficiency-2", "?Krastorio2", "?space-exploration", "?modmashsplintergold", "?aai-industry", "? water-processing", "(?) bzaluminum", "(?) bzcarbon", "(?) bzchlorine", "(?) bzgas", "(?) bzlead", "(?) bzsilicon", "(?) bztin", "(?) bztitanium", "(?) bztungsten", "(?) bzzirconium", "? dark-matter-replicators-18", "? Sebs-Electrics", "? MDbobelectronics", "? BrassTacks", "? IfNickel", "? BrimStuff", "? ThemTharHills" ],
   "factorio_version": "1.1"
 }
