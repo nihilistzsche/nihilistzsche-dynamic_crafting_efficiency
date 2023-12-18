@@ -1,4 +1,14 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.6
+Date: 2023-12-18
+  Changes:
+    - Added support for LasingAround
+    - Added support for bismuth
+    - Added enriched-zinc-plate and enriched-nickel-plate and fixed a typo in the IfNickel support.
+    - Fixed the dark-matter-replicator-18 items broke with the 0.0.5 update.
+    - Will add all of the items added to crafted effienceny (except rare metals and gold ingots)
+      to dark-matter-replicators-18 if it is present.
+---------------------------------------------------------------------------------------------------
 Version: 0.0.5
 Date: 2023-12-15
   Changes:

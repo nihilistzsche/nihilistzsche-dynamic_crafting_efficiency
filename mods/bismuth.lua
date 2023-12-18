@@ -1,0 +1,5 @@
+k2_se_ce_add_recipe("enriched-bismuth")
+k2_se_ce_add_recipe("enriched-bismuth-plate")
+k2_se_ce_add_recipe("bismuth-plate")
+k2_se_ce_add_recipe("bismuth-glass")
+k2_se_ce_add_recipe("pcb-solder")
