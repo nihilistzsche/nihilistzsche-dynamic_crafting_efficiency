@@ -11,6 +11,13 @@ if mods["bzaluminum"] then
         util.replace_ingredient("ce-" .. item .. "-" .. i, "iron-plate", "aluminum-plate")
     end
 end
+if mods["LasingAround"] then
+    for recipe, tbl in pairs(data.raw.recipe) do
+        if starts_with(recipe, "ce-micron-tolerance-components") then
+            tbl.category = "crafting"
+        end
+    end
+end
 if mods["dark-matter-replicators-18"] then
     for tech, tbl in pairs(data.raw.technology) do
         if starts_with(tech, "dmr18-repl-") then
