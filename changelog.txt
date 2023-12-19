@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.7
+Date: ????-??-??
+  Changes:
+    - Fixed the dark-matter-replicators-18 support which had invalid items on
+      replication technologies, and removing not replication inputs from the
+      replication labs.
+---------------------------------------------------------------------------------------------------
 Version: 0.0.6
 Date: 2023-12-18
   Changes:
