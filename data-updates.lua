@@ -6,15 +6,11 @@ for i, recipe in pairs(K2_SE_CE_Recipes) do
         data.raw.recipe[recipe]
         and not eff_data[recipe]
     then
-        local research_level = 6
-        if data.raw.recipe[recipe].enabled then
-            research_level = 1
-        else
-            for tech, tbl in pairs(data.raw.technology) do
-                for _, effect in pairs(tbl.effects or {}) do
-                    if effect.type == "unlock-recipe" and effect.recipe == recipe then
-                        research_level = math.min(#tbl.unit.ingredients, research_level)
-                    end
+        local research_level = 1
+        for tech, tbl in pairs(data.raw.technology) do
+            for _, effect in pairs(tbl.effects or {}) do
+                if effect.type == "unlock-recipe" and effect.recipe == recipe then
+                    research_level = math.min(#tbl.unit.ingredients, 6)
                 end
             end
         end
